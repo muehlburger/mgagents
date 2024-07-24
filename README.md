@@ -56,3 +56,7 @@ Verfügbare Modelle findest du in der [Ollama Bibliothek](https://ollama.com/lib
 - Modellname: phi3
 - API-Schlüssel: ollama
 - Basis-URL: `http://localhost:11434/v1`
+
+## Tips & Tricks
+
+- Dieses [Video](https://www.youtube.com/watch?v=lRu_-yFY-4M&t=333s) zeigt, wie man ChatGPT dazu nutzen kann, um Ollama Studio Skills zu schreiben.
