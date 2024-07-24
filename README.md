@@ -8,6 +8,10 @@ Dieses Repository enthält Code für verschiedene Agents. Wir nutzen verschieden
 
 Lade Ollama von [ollama.com](https://ollama.com/download) herunter und installiere es.
 
+#### Ollama Models Ordner ändern
+
+Im [FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-set-them-to-a-different-location) wird beschrieben, wie man mittels Umgebungsvariablen den Speicherort von Ollama Models ändert.
+
 ### LM Studio
 
 Lade LM Studio von [lmstudio.ai](https://lmstudio.ai) herunter und installiere es.
@@ -18,17 +22,17 @@ Autogen Studio kann über pip in einer neuen Conda-Umgebung installiert werden. 
 
 1. Erstelle eine neue Conda-Umgebung:
     ```sh
-    conda create -n autogen python=3.11
+    conda create -n autogenstudio python=3.11
     ```
 
 2. Aktiviere die Umgebung:
     ```sh
-    conda activate autogen
+    conda activate autogenstudio
     ```
 
 3. Installiere Autogen Studio:
     ```sh
-    pip install -U autogenstudio
+    pip install autogenstudio
     ```
 
 ## Verwendung
